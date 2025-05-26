@@ -1,0 +1,22 @@
+POST http://localhost:3000/signup
+# POST https://api.asaas.alexgalhardo.com/signup
+content-type: application/json
+
+{
+	"name": "User alex",
+	"email": "alex@gmail.com",
+	"password": "alexQWE@123",
+	"cpf": "45672888828",
+	"phone_number": "18996971459",
+	"birth_date": "23-09-1997",
+	"address": {
+		"street_name": "Rua Logo Ali",
+		"cep": "13560290",
+		"street_complement": "Perto do Bosque",
+		"street_number": 42,
+		"neighborhood": "Bairro",
+		"city": "Cidade",
+		"state": "SP",
+		"country": "BR"
+	}
+}

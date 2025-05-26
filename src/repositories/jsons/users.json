@@ -1,0 +1,38 @@
+[
+	{
+		"id": "4e7ba392-a0e9-4053-9d9d-c02d701df62f",
+		"name": "User alex",
+		"email": "alex@gmail.com",
+		"password": "$2a$12$rKt26Z1yRlijDjaJd3l4R.CcnmvFf9Fqgnb6deXx4YAjtdvl415vG",
+		"cpf": "45672888828",
+		"phone_number": "18996971459",
+		"birth_date": "23-09-1997",
+		"jwe_token": "eyJhbGciOiJSU0EtT0FFUC0yNTYiLCJlbmMiOiJBMjU2R0NNIn0.x2SAOdYRvi7hPHIV3ZdKBedPARhIXAYS5EocNyjs6RlIgxd_jMPkjNsG4BKw-OXH6_MK9NNoVLz2MstRelBfIjFdBnxPh9PpFpuOtSEM1v2BaCRF1GqeCloGbXN3cbbS4PZCkfr7L_tOo53PaHFfEwo6DE72sfKJWCmPtEDCSG6PvRmwDzGlyD1WRsD-PauN-KJekHjOAom1UEi-J4dgX7WWkTAK6EEIBtjnWttkkvhCerQ5QnfRIG8ACqBwL1_kWAvtoULaFK66c02ojJ0OcfYYR2U66D1bAy1VlM9l7ZzNW1hNPEeWptumFaRvd2Mp--Qt3ptpVbdDubxJaMWmeg.kxDYX8JlnkPb1Qu_.foJhHX5zNOvp-ujI1MmT46uzr6wmV2jDX4YT4wVOEX7zgKAsB6Z_yZss42HGeYDoxPijubc1HBMTrR7WNZzlnjq6u-4WoYJm5KpJefyGdOV_RXiDlpIhxLn2M2plyJLiN6Pd9AvdD6g.ahlP1wPzV-pXg6sKjdZ9Ig",
+		"asaas_customer_id": "cus_000006316494",
+		"asaas_customer_response": "{\"object\":\"customer\",\"id\":\"cus_000006316494\",\"dateCreated\":\"2024-10-27\",\"name\":\"User alex\",\"email\":\"alex@gmail.com\",\"company\":null,\"phone\":\"18996971459\",\"mobilePhone\":\"18996971459\",\"address\":\"Rua Logo Ali\",\"addressNumber\":\"42\",\"complement\":null,\"province\":\"Vila Monteiro (Gleba I)\",\"postalCode\":\"13560290\",\"cpfCnpj\":\"45672888828\",\"personType\":\"FISICA\",\"deleted\":false,\"additionalEmails\":null,\"externalReference\":\"4e7ba392-a0e9-4053-9d9d-c02d701df62f\",\"notificationDisabled\":false,\"observations\":null,\"municipalInscription\":null,\"stateInscription\":null,\"canDelete\":true,\"cannotBeDeletedReason\":null,\"canEdit\":true,\"cannotEditReason\":null,\"city\":12048,\"cityName\":\"São Carlos\",\"state\":\"SP\",\"country\":\"Brasil\"}",
+		"subscription": {
+			"tier": {
+				"free": false,
+				"basic": false,
+				"pro": true
+			},
+			"starts_at": null,
+			"ends_at": null
+		},
+		"address": {
+			"street_name": "Rua Logo Ali",
+			"cep": "13560290",
+			"street_complement": "Perto do Bosque",
+			"street_number": 42,
+			"neighborhood": "Bairro",
+			"city": "Cidade",
+			"state": "SP",
+			"country": "BR"
+		},
+		"created_at": "2024-10-27T22:37:54.611Z",
+		"updated_at": "2024-10-27T23:29:28.077Z",
+		"reset_password_token": null,
+		"reset_password_token_expires_at": null,
+		"jwt_token": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2VtYWlsIjoiYWxleEBnbWFpbC5jb20iLCJpYXQiOjE3MzAwNzE3Njh9.OjR5dS5XaFrFvCtLvQssNE5k6vFl7BPpSqugVA4SH6Y"
+	}
+]

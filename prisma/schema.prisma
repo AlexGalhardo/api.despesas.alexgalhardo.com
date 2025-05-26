@@ -1,0 +1,87 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = env("DATABASE_URL")
+}
+
+enum UserRole {
+  CUSTOMER
+  ADMIN
+}
+
+model User {
+  id String @id @default(uuid())
+
+  name  String
+  email String @unique
+
+  role UserRole @default(CUSTOMER)
+
+  phone_number String?
+  cpf          String? @unique
+  birth_date   String?
+
+  address_street_name       String?
+  address_cep               String?
+  address_street_complement String?
+  address_street_number     Int?
+  address_neighborhood      String?
+  address_city              String?
+  address_state             String?
+  address_country           String?
+
+  jwe_token String? @unique
+
+  password                        String
+  reset_password_token            String? @unique
+  reset_password_token_expires_at String?
+
+  confirm_email_valited_at       DateTime?
+  confirm_email_token            String?   @unique
+  confirm_email_token_expires_at DateTime?
+
+  created_at DateTime  @default(now())
+  updated_at DateTime? @updatedAt
+  deleted_at DateTime?
+
+  expenses Expense[]
+
+  @@unique(fields: [email, reset_password_token], name: "resetPasswordTokenIsValid")
+  @@map("users")
+}
+
+enum ExpenseCategory {
+  FOOD
+  HOUSE
+  ENTERTAINMENT
+  SUBSCRIPTIONS
+  TRANSPORT
+  CLOTHES
+  EDUCATION
+  SHOP
+  GIFTS
+  HEALTH
+  GOING_OUT
+  WORK
+  RENT
+}
+
+model Expense {
+  id String @id @default(uuid())
+
+  user_email  String
+  description String
+  category    ExpenseCategory
+  amount      Int
+
+  created_at DateTime  @default(now())
+  updated_at DateTime? @updatedAt
+  deleted_at DateTime?
+
+  user User @relation(fields: [user_email], references: [email])
+
+  @@map("expenses")
+}

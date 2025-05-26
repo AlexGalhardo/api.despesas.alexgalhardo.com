@@ -1,0 +1,22 @@
+PATCH http://localhost:3000/user
+content-type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VyX2VtYWlsIjoidXNlci5zaWdudXBAZ21haWwuY29tIiwiaWF0IjoxNzI5MzQ4OTg5fQ.emUHYCJ6XaWFB4xU7thc-iW4fFYO83hHBAPZ6vf-C2c
+
+{
+	"name": "User alex",
+	"password": "novasenhaBR@123",
+	"password": "alexQWE@123",
+	"cpf": "45672888828",
+	"phone_number": "18996971459",
+	"birth_date": "23-09-1997",
+	"address": {
+		"street_name": "Rua Logo Ali",
+		"cep": "13560290",
+		"street_complement": "Perto do Bosque",
+		"street_number": 42,
+		"neighborhood": "Bairro",
+		"city": "Cidade",
+		"state": "Estado",
+		"country": "BR"
+	}
+}

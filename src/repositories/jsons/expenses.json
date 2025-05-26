@@ -1,0 +1,22 @@
+[
+	{
+		"id": "c7e605ef-b236-4a94-b75f-afd43a6f943a",
+		"user_email": "user.signup@gmail.com",
+		"description": "netflix",
+		"category": "ENTERTAINMENT",
+		"amount": 4500,
+		"created_at": "2024-10-27T17:49:58.387Z",
+		"updated_at": "2024-10-27T17:49:58.387Z",
+		"deleted_at": null
+	},
+	{
+		"id": "f50a7367-5686-4101-beaa-47788d025c5a",
+		"user_email": "alex@gmail.com",
+		"description": "opa",
+		"category": "EDUCATION",
+		"amount": 2000,
+		"created_at": "2024-10-27T23:56:42.882Z",
+		"updated_at": "2024-10-27T23:56:42.882Z",
+		"deleted_at": null
+	}
+]

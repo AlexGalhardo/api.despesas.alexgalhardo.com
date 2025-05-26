@@ -1,0 +1,9 @@
+POST http://localhost:3000/expenses
+content-type: application/json
+
+{
+	"password": "agerenonloqu",
+	"description": "netflix",
+	"category": "ENTERTAINMENT",
+	"amount": 4500
+}

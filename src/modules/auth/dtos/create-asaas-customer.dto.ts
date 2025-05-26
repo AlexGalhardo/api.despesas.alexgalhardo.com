@@ -1,0 +1,32 @@
+export interface CreateAsaasCustomerResponseDto {
+	object: "customer";
+	id: "cus_000006312473";
+	dateCreated: "2024-10-25";
+	name: "Alex Sandbox";
+	email: "aleexgvieira@gmail.com";
+	company: null;
+	phone: "18996971459";
+	mobilePhone: "18996971459";
+	address: "Av Paulista";
+	addressNumber: "42";
+	complement: null;
+	province: "Centro";
+	postalCode: "01310000";
+	cpfCnpj: "45672888828";
+	personType: "FISICA";
+	deleted: false;
+	additionalEmails: null;
+	externalReference: "15ee3332-cc12-47b0-9987-91af824c83d3";
+	notificationDisabled: true;
+	observations: null;
+	municipalInscription: null;
+	stateInscription: null;
+	canDelete: true;
+	cannotBeDeletedReason: null;
+	canEdit: true;
+	cannotEditReason: null;
+	city: 12565;
+	cityName: "São Paulo";
+	state: "SP";
+	country: "Brasil";
+}
